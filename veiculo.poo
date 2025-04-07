@@ -1,0 +1,25 @@
+class Veiculo:
+    def __init__(self, nome, modelo, ano, cor)
+        self.nome = nome
+        self.modelo = modelo
+        self.ano = ano
+        self.cor = cor
+
+class Carro(Veiculo):
+    def __init__(self, nome, modelo, ano, cor):
+        super().__init__(nome, modelo, ano, cor)
+        self.acelerar = 100
+        self.freiar
+        
+class Moto(Veiculo):
+    def __init__(self, nome, modelo, ano, cor):
+        super().__init__(nome, modelo, ano, cor)
+        self.ligar = True
+        self.buzinar
+
+
+carro = Carro("Chevette", "Chevrolet", 1990, "Verde")
+print(carro.nome)  # Output: Chevette
+moto = Moto("CG160", "Honda", 2025, "prata")
+print(moto.modelo)  # Output: CG160
+moto_self.buzinar
